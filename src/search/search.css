@@ -1,0 +1,12 @@
+.active-purple-2 {
+  margin: 10px auto;
+  width: 500px;
+}
+.active-purple-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+.search-input{
+  border:none;
+  border-radius: 0;
+}
