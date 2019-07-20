@@ -9,6 +9,7 @@ function createSearchForm(){
 
   let searchDiv = document.createElement('div');
   searchDiv.className ="md-form active-purple-2 mb-3";
+  searchDiv.id = 'search-input';
 
   let searchInputAttr = { 'id':'search','class': 'form-control search-input','type':'text',
   'placeholder':'Search a city','aria-label':'Search'};

@@ -5,7 +5,7 @@ import search from '../search/search.js';
 
 search.createSearchForm();
 
-(function retrieveResults(){
+function retrieveResults(){
   let searchInput = document.getElementById('search');
   let list = document.createElement('ul');
   list.id = "card-list";
@@ -14,16 +14,20 @@ search.createSearchForm();
       searchResults(searchInput.value,list);
     }
   });
-})();
+  return list;
+}
 
 function searchResults(name,list){
   let dataOfCity = getWeather(name);
   dataOfCity.then(resp => resp.json())
   .then(data =>{
-    let card = new Card(data.id,data.name,data.sys.country,null,data.main.temp,data.wind,data.main.humidity);
-    list.insertAdjacentHTML("beforeend",card.render());
+    let card = new Card(data.id,data.name,data.sys.country,null,data.main.temp,data.wind,data.main.humidity,data.weather);
+    list.insertAdjacentHTML("afterbegin",card.render());
+    card.remove();
+    card.background();
   })
   .catch(function() {
         alert('Could not get the weather conditions for this place');
   });
 }
+export default {retrieveResults};
