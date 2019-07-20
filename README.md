@@ -1,16 +1,43 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Weather App Project
 
-This project has been created using **webpack scaffold**, you can now run
+Author: [Orestis Kaplanis](https://github.com/userman95)
+
+## Installation Guide
+### Requirements
+```
+node -v >= v8.16.0
+
+npm -v >=  6.4.1
+
+webpack -v >= 3.5.6
 
 ```
-npm run build
-```
 
-or
-
+## Setup
+#### Clone project
 ```
-yarn build
+git clone git@github.com:userman95/Restaurant-Page.git
+cd ./Restaurant-Page
 ```
-install bootstrap
+#### Install npm
+```
+npm install
+```
+#### Install webpack
+  See install instructions for [webpack](https://webpack.js.org/guides/installation/)
 
-to bundle your application
+#### Install file-loader and url-loader and their dependencies
+```
+npm install file-loader --save-dev
+
+npm install url-loader --save-dev
+```
+#### Install css loader
+```
+npm install css-loader style-loader --save-dev
+```
+#### Build project
+```
+webpack
+```
+Run `npm run start` and enjoy ! 
