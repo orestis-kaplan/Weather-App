@@ -25,19 +25,8 @@ npm install
 ```
 #### Install webpack
   See install instructions for [webpack](https://webpack.js.org/guides/installation/)
-
-#### Install file-loader and url-loader and their dependencies
-```
-npm install file-loader --save-dev
-
-npm install url-loader --save-dev
-```
-#### Install css loader
-```
-npm install css-loader style-loader --save-dev
-```
 #### Build project
 ```
 webpack
 ```
-Run `npm run start` and enjoy ! 
+Run `npm run start` and enjoy !
