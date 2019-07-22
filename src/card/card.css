@@ -1,0 +1,21 @@
+#card-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.card{
+  flex-basis: 24%;
+  margin: 4px 5px;
+}
+.card-temp{
+  font-size: 27px;
+  margin-left: 5px;
+}
+.card-wind{
+  float: right;
+  font-size: 27px;
+}
+.card-description{
+  font-size: 20px;
+  font-weight: bold;
+}

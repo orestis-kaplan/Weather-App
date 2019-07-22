@@ -1,0 +1,36 @@
+.gear-button{
+  background-color: transparent;
+  background-image: url('../img/gear.png');
+  background-size: contain;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 37px;
+  margin-left: 25px;
+  width: 37px;
+}
+#dropdown-options{
+  display: none;
+  position: absolute;
+  padding: 0;
+  list-style: none;
+  z-index: 1;
+}
+#dropdown-menu {
+  margin-left: 16px;
+}
+.gear-button:focus {
+    outline: none;
+}
+.menu-li{
+  background-color: aliceblue;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 3px 8px;
+  text-align: center;
+}
+.menu-li:hover{
+  background-color: #69936bab;
+}
+.menu-li:first-child, .menu-li:nth-child(2) {
+  border-bottom: none;
+}
