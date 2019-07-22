@@ -36,7 +36,7 @@ function createDropdownOptions() {
     li.className = 'menu-li';
     li.innerHTML = name;
     li.addEventListener('click', () => {
-      changeTemp(name);
+      changeTempOnClick(name);
     });
     ulOptions.appendChild(li);
   });
@@ -45,7 +45,7 @@ function createDropdownOptions() {
   dropdownMenu.appendChild(ulOptions);
 }
 
-function changeTemp(convertFunc) {
+function changeTempOnClick(convertFunc) {
   let tempOfCards = document.getElementsByClassName('card-temp');
   for (let value of tempOfCards) {
     switch (convertFunc) {

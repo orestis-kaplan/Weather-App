@@ -27,12 +27,12 @@ Card.prototype.render = function(){
        </p>
        <div class="card-contents">
          <p>
-           <span class="card-temp">${Math.ceil(this.temp)}&deg; K</span>
-           <span class="card-wind">${this.wind.speed}mph</span>
+           <span class="card-temp">${this.temp}&deg; K</span>
+           <span class="card-wind">${this.wind.speed}m/s</span>
          </p>
        </div>
        <p class="text-center">
-          <span class="card-humidity">Humidity: ${this.humidity}gr/m³</sapn>
+          <span class="card-humidity">Humidity: ${this.humidity} %</sapn>
        </p>
        <button id="delete-btn-${this.id}">Delete</button>
       </li>

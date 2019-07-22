@@ -26,8 +26,8 @@ function searchResults(name,list){
     card.remove();
     card.background();
   })
-  .catch(function() {
-        alert('Could not get the weather conditions for this place');
+  .catch(function(error) {
+        alert(error);
   });
 }
 export default {retrieveResults};
