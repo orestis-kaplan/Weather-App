@@ -16,8 +16,8 @@ webpack -v >= 3.5.6
 ## Setup
 #### Clone project
 ```
-git clone git@github.com:userman95/Restaurant-Page.git
-cd ./Restaurant-Page
+git clone git@github.com:userman95/Weather-App.git
+cd ./Weather-App
 ```
 #### Install npm
 ```
