@@ -1,6 +1,7 @@
 # 🚀 Weather App Project
 
 Author: [Orestis Kaplanis](https://github.com/userman95)
+
 Live preview: https://userman95.github.io/Weather-App/dist/
 ## Installation Guide
 ### Requirements
