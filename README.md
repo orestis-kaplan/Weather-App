@@ -13,7 +13,11 @@ npm -v >=  6.4.1
 webpack -v >= 3.5.6
 
 ```
-
+## Built With
+ 
+ * Javascript
+ * Webpack
+ 
 ## Setup
 #### Clone project
 ```
@@ -31,3 +35,7 @@ npm install
 webpack
 ```
 Run `npm run start` and enjoy !
+
+## Authors
+
+* **[Orestis Kaplanis](https://github.com/userman95)**
