@@ -42,3 +42,6 @@ Run `npm run start` and enjoy !
 ## Authors
 
 * **[Orestis Kaplanis](https://github.com/userman95)**
+
+## Screenshot
+![Sceernshot](https://github.com/userman95/Weather-App/blob/master/src/img/Screenshot%20(164).png)
